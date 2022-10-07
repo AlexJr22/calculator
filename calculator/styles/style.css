@@ -5,6 +5,8 @@
 }
 
 body {
+  background-color: #2C0E37;
+
   display: flex;
 
   position: relative;

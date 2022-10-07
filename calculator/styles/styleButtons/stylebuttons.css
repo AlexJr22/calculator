@@ -1,6 +1,9 @@
 .numbers {
+  background-color: #808F85;
+
   display: flex;
   border: 1px black solid;
+  border-radius: 5px;
 
   width: 300px;
   height: 350px;
@@ -8,11 +11,13 @@
   padding-top: 7px;
 
   flex-wrap: wrap;
-
+  
   justify-content: space-around;
 }
 
 .cardButton {
+  background-color: #91C499;
+  
   border: 1px black solid;
 
   width: 80px;
