@@ -1,10 +1,10 @@
 .operatorButtons {
   position: absolute;
 
-  transform: translate(200px, 15px)
+  transform: translate(200px, 20px)
 }
 
-.cardButton.operetors {
+.cardButton.operators {
   width: 70px;
   height: 70px;
 }
