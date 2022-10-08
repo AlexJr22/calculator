@@ -1,0 +1,15 @@
+.operatorButtons {
+  position: absolute;
+
+}
+
+.operatorButtons .operetors {
+  position: relative;
+  left: 190px;
+  bottom: -15px;
+}
+
+.cardButton.operetors {
+  width: 70px;
+  height: 70px;
+}
