@@ -1,12 +1,7 @@
 .operatorButtons {
   position: absolute;
 
-}
-
-.operatorButtons .operetors {
-  position: relative;
-  left: 190px;
-  bottom: -15px;
+  transform: translate(200px, 15px)
 }
 
 .cardButton.operetors {
