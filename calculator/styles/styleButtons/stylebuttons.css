@@ -31,4 +31,10 @@
   align-items: center;
 
   border-radius: 5px;
+
+  user-select: none;
+}
+
+.cardButton:active {
+  background-color: #91c499ab;
 }
