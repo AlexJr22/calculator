@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -16,6 +17,11 @@ body {
   
   width: 100vw;
   height: 100vh;
+}
+footer {
+  font-size: .8em;
+  position: absolute;
+  bottom: 0;
 }
 
 #calculator {
