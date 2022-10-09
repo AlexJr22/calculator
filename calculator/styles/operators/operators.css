@@ -1,10 +1,12 @@
 .operatorButtons {
   position: absolute;
 
-  transform: translate(200px, 20px)
+  transform: translate(300px, 5px)
 }
 
 .cardButton.operators {
-  width: 70px;
-  height: 70px;
+  width: 75px;
+  height: 75px;
+
+  margin-bottom: 4px;
 }

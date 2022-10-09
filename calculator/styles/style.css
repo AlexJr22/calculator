@@ -19,7 +19,7 @@ body {
 }
 
 #calculator {
-  width: 400px;
+  width: 390px;
   
   flex-direction: column;
   display: flex;

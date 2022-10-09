@@ -1,8 +1,5 @@
 .numbers {
-  background-color: #808F85;
-
   display: flex;
-  border: 1px black solid;
   border-radius: 5px;
 
   width: 300px;
