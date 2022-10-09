@@ -37,23 +37,24 @@
         <td colspan="2" ><div class="cardButton operators" style="width: 153px;" onclick="backSpace()">&laquo;</div></td>
       </tr>
       <tr>
-        <td colspan="2"><div class="cardButton operators" style="width: 153px;">=</div></td>
-      </tr>
-      <tr>
-        <td><div class="cardButton operators">-</div></td>
-        <td><div class="cardButton operators">+</div></td>
-      </tr>
-      <tr>
-        <td><div class="cardButton operators">*</div></td>
-        <td><div class="cardButton operators">/</div></td>
-      </tr>
-      <tr>
         <td colspan="2"><div class="cardButton operators" style="width: 153px;" onclick="clearCharacters()">AC</div> </td>
+      </tr>
+      <tr>
+        <td><div class="cardButton operators" onclick="insertOperators('-')">-</div></td>
+        <td><div class="cardButton operators" onclick="insertOperators('+')">+</div></td>
+      </tr>
+      <tr>
+        <td><div class="cardButton operators" onclick="insertOperators('*')">*</div></td>
+        <td><div class="cardButton operators" onclick="insertOperators('/')">/</div></td>
+      </tr>
+      <tr>
+        <td colspan="2"><div class="cardButton operators" style="width: 153px;" onclick="result()">=</div></td>
       </tr>
     </table>
   </div>  
   
   <script src="scripts/insertNumbers.js"></script>
   <script src="scripts/BackSpace.js"></script>
+  <script src="scripts/operators.js"></script>
 </body>
 </html>
