@@ -18,23 +18,23 @@
     <p class="displayCalculator" ></p>
     
     <div class="numbers">
-      <div class="cardButton">7</div>
-      <div class="cardButton">8</div>
-      <div class="cardButton">9</div>
-      <div class="cardButton">4</div>
-      <div class="cardButton">5</div>
-      <div class="cardButton">6</div>
-      <div class="cardButton">1</div>
-      <div class="cardButton">2</div>
-      <div class="cardButton">3</div>
-      <div class="cardButton">0</div>
-      <div class="cardButton">00</div>
-      <div class="cardButton">,</div>
+      <div class="cardButton" onclick="insertNumbers('7')">7</div>
+      <div class="cardButton" onclick="insertNumbers('8')">8</div>
+      <div class="cardButton" onclick="insertNumbers('9')">9</div>
+      <div class="cardButton" onclick="insertNumbers('4')">4</div>
+      <div class="cardButton" onclick="insertNumbers('5')">5</div>
+      <div class="cardButton" onclick="insertNumbers('6')">6</div>
+      <div class="cardButton" onclick="insertNumbers('1')">1</div>
+      <div class="cardButton" onclick="insertNumbers('2')">2</div>
+      <div class="cardButton" onclick="insertNumbers('3')">3</div>
+      <div class="cardButton" onclick="insertNumbers('0')">0</div>
+      <div class="cardButton" onclick="insertNumbers('00')">00</div>
+      <div class="cardButton" onclick="insertNumbers('.')">.</div>
     </div>
     
     <table class="operatorButtons">
       <tr>
-        <td colspan="2" ><div class="cardButton operators" style="width: 153px;">&laquo;</div></td>
+        <td colspan="2" ><div class="cardButton operators" style="width: 153px;" onclick="backSpace()">&laquo;</div></td>
       </tr>
       <tr>
         <td colspan="2"><div class="cardButton operators" style="width: 153px;">=</div></td>
@@ -48,10 +48,12 @@
         <td><div class="cardButton operators">/</div></td>
       </tr>
       <tr>
-        <td colspan="2"><div class="cardButton operators" style="width: 153px;">AC</div> </td>
+        <td colspan="2"><div class="cardButton operators" style="width: 153px;" onclick="clearCharacters()">AC</div> </td>
       </tr>
     </table>
   </div>  
   
+  <script src="scripts/insertNumbers.js"></script>
+  <script src="scripts/BackSpace.js"></script>
 </body>
 </html>
