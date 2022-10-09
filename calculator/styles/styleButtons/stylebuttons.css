@@ -31,7 +31,7 @@
 }
 
 .numbers .cardButton{
-  margin: 0px 5px 0px 12px;
+  margin: 0px 5px 0px 5px;
 }
 .cardButton:active {
   background-color: #91c499ab;
