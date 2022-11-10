@@ -1,5 +1,7 @@
-let displayCalculator = document.querySelector('.displayCalculator') 
+let displayCalculator = document.querySelector('.displayCalculator');
 
 function insertNumbers(num){
-  displayCalculator.innerHTML += num
+
+  displayCalculator.innerHTML += num;
+  
 }
