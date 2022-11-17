@@ -6,8 +6,6 @@
 }
 
 body {
-  background-image: linear-gradient(135deg, rgb(232, 232, 160), #2C0E37 );
-
   display: flex;
 
   position: relative;
