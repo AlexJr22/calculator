@@ -7,10 +7,10 @@
 
 body {
   background-image: url(./Imgs/background.jpg);  
-  background-size:  100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   
   display: flex;
-
 
   justify-content: center;
   align-items: center;
