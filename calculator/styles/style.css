@@ -6,9 +6,11 @@
 }
 
 body {
+  background-image: url(../Imgs/background.jpg);  
+  background-size:  100%;
+  
   display: flex;
 
-  position: relative;
 
   justify-content: center;
   align-items: center;
@@ -16,19 +18,9 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
 footer {
   font-size: .8em;
   position: absolute;
   bottom: 0;
-}
-
-#calculator {
-  width: 450px;
-  display: flex;
-  border-radius: 5px;
-  border: #1F1F20 solid 10px;
-  
-  background-color: #1F1F20;
-
-  flex-direction: column;
 }
