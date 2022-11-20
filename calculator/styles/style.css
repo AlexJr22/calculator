@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(../Imgs/background.jpg);  
+  background-image: url(./Imgs/background.jpg);  
   background-size:  100%;
   
   display: flex;
