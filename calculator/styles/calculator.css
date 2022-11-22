@@ -1,0 +1,24 @@
+.calculator {
+  background-color: gray;
+
+  display: flex;
+
+  width: 350px;
+  height: 500px;
+
+  flex-direction: column;
+  align-items: center;
+}
+
+.calculator > p {
+  background-color: white;
+  display: flex;
+  
+  width: 90%;
+  height: 30px;
+  margin-top: 10px;
+  
+  border-radius: 5px;
+  justify-content: flex-end;
+  align-items: center;
+}
