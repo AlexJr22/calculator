@@ -35,3 +35,7 @@ button {
   height: 70px;
   width: 70px;
 }
+
+.largeButtons {
+  height: 147px;
+}
