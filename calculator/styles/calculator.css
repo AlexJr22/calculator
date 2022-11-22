@@ -17,8 +17,15 @@
   width: 90%;
   height: 30px;
   margin-top: 10px;
+  margin-bottom: 10px;
   
   border-radius: 5px;
   justify-content: flex-end;
   align-items: center;
+}
+
+.calculator > table {
+  border: solid white;
+  height: 100%;
+  width: 100%;
 }
