@@ -26,16 +26,19 @@
 
 .layoutButtons {
   display: flex;
+
   height: 100%;
   width: 100%;
+
+  justify-content: center;
 }
 
 .colsButton {
-  border: white solid 1px;
   width: min-content;
 }
 
 button {
   width: 75px;
   height: 75px;
+  margin: 2px;
 }
