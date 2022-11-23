@@ -25,7 +25,17 @@
 }
 
 .layoutButtons {
-  border: solid white;
+  display: flex;
   height: 100%;
   width: 100%;
+}
+
+.colsButton {
+  border: white solid 1px;
+  width: min-content;
+}
+
+button {
+  width: 75px;
+  height: 75px;
 }
