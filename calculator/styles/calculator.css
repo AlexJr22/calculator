@@ -1,10 +1,11 @@
 .calculator {
-
+  background-color: rgba(231, 231, 241, 0.4);
+  
   display: flex;
-
   width: 350px;
   height: 480px;
-
+  
+  border-radius: 7px;
   flex-direction: column;
   align-items: center;
 }
@@ -15,10 +16,11 @@
   
   width: 90%;
   height: 60px;
+
   margin-top: 10px;
   margin-bottom: 10px;
-  
   border-radius: 5px;
+  
   justify-content: flex-end;
   align-items: center;
 }
@@ -37,7 +39,7 @@
 }
 
 button {
-  background-color: #506C77;
+  background-color: #6f8a95;
 
   width: 75px;
   height: 75px;
