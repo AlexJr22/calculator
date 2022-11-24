@@ -13,33 +13,33 @@
 <body>
 
   <div class="calculator">
-    <p>00</p>
+    <p class="displayCalculator" ></p>
     <div class="layoutButtons">
       <div class="colsButton">
-        <button>C</button>
-        <button>7</button>
-        <button>4</button>
-        <button>1</button>
-        <button>0</button>
+        <button onclick="clearCharacters()">C</button>
+        <button onclick="insertNumbers('7')">7</button>
+        <button onclick="insertNumbers('4')">4</button>
+        <button onclick="insertNumbers('1')">1</button>
+        <button onclick="insertNumbers('0')">0</button>
       </div>
       <div class="colsButton">
-        <button>/</button>
-        <button>8</button>
-        <button>5</button>
-        <button>2</button>
-        <button>.</button>
+        <button onclick="insertOperators('/')">/</button>
+        <button onclick="insertNumbers('8')">8</button>
+        <button onclick="insertNumbers('5')">5</button>
+        <button onclick="insertNumbers('2')">2</button>
+        <button onclick="insertNumbers('.')">.</button>
       </div>
       <div class="colsButton">
-        <button>*</button>
-        <button>9</button>
-        <button>6</button>
-        <button>3</button>
-        <button>◄</button>
+        <button onclick="insertOperators('*')">*</button>
+        <button onclick="insertNumbers('9')">9</button>
+        <button onclick="insertNumbers('6')">6</button>
+        <button onclick="insertNumbers('3')">3</button>
+        <button onclick="backSpace()">◄</button>
       </div>
       <div class="colsButton">
-        <button>-</button>
-        <button class="largeButton">+</button>
-        <button class="largeButton">=</button>
+        <button onclick="insertOperators('-')" >-</button>
+        <button onclick="insertOperators('+')" class="largeButton">+</button>
+        <button onclick="result()" class="largeButton">=</button>
       </div>
     </div>
   </div>
