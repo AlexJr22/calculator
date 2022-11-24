@@ -3,7 +3,11 @@ const displayCalculator: any = document.querySelector('.displayCalculator');
 
 function insertNumbers(num: string) {
 
-  displayCalculator.innerHTML += num;
+  if (displayCalculator.innerHTML.length < 15) {
+    
+    displayCalculator.innerHTML += num;
+    
+  }
   
 }
 
