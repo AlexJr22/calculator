@@ -42,3 +42,7 @@ button {
   height: 75px;
   margin: 2px;
 }
+
+.largeButton {
+  height: 154px;  
+}
