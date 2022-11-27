@@ -26,7 +26,8 @@ body {
 }
 
 footer {
-  font-size: .8em;
+  font-size: 14pt;
+  color: #fff;
   position: absolute;
   bottom: 0;
 }
