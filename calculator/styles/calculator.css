@@ -11,7 +11,7 @@
 }
 
 .calculator > p {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.678);
   display: flex;
   
   width: 90%;
@@ -40,7 +40,8 @@
 }
 
 button {
-  background-color: #404d4d;
+  background-color: #26211D;
+  color: #D99E91;
 
   width: 75px;
   height: 75px;
@@ -51,7 +52,7 @@ button {
 }
 
 button:active {
-  background-color: #C49083;
+  background-color: #556D73;
 }
 
 .largeButton {
