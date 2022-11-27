@@ -2,7 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Courier New', Courier, monospace;
+  font-family:  digital-7,'Courier New', Courier, monospace;
+  font-size: 25pt;
+}
+
+@font-face {
+  font-family: digital-7;
+  src: url('./fonts/digital-7.ttf') format('truetype');
 }
 
 body {
