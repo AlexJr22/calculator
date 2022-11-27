@@ -1,6 +1,11 @@
 .calculator {
-  background-color: rgba(242, 207, 194, 0.4);
-  
+  background-color: #f2cfc24d;
+  backdrop-filter: blur(10px);
+  border-top: 1px solid #f2cfc2;
+  border-left: 1px solid #f2cfc2;
+  border-right: 1px solid #8e7871b6;
+  border-bottom: 1px solid #8e7871b6;
+
   display: flex;
   width: 350px;
   height: 480px;
